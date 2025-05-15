@@ -1,5 +1,6 @@
 // const enviarMensajeCadaMinuto = async (provider) => {
-//   const numerosDestinos = ["5217821351491@s.whatsapp.net"];
+//   const numerosDestinos = process.env.NUMEROS_DESTINOS.split(",");
+
 //   const mensaje = "Este es un mensaje automático enviado cada minuto.";
 
 //   setInterval(async () => {

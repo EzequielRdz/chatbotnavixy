@@ -1,5 +1,9 @@
 const { addKeyword } = require("@bot-whatsapp/bot");
 const axios = require("axios");
+dotenv = require("dotenv");
+dotenv.config();
+
+const API_URL = process.env.NAVIXY_API_URL;
 
 let intentos = {};
 
@@ -20,13 +24,14 @@ const flujoUbicacion = addKeyword([
     const userId = ctx.from;
 
     try {
-      const auth = await axios.post("https://api.us.navixy.com/v2/user/auth", {
+      // Usamos la URL de la API desde la variable de entorno
+      const auth = await axios.post(`${API_URL}/user/auth`, {
         login: process.env.NAVIXY_LOGIN,
         password: process.env.NAVIXY_PASSWORD,
       });
       const hash = auth.data.hash;
 
-      const listRes = await axios.get(`https://api.us.navixy.com/v2/tracker/list?hash=${hash}`);
+      const listRes = await axios.get(`${API_URL}/tracker/list?hash=${hash}`);
       const trackers = listRes.data.list;
 
       const tracker = trackers.find((t) => t.label.toLowerCase().includes(nombreBuscado));
@@ -46,7 +51,7 @@ const flujoUbicacion = addKeyword([
       const trackerId = tracker.id;
 
       const locRes = await axios.get(
-        `https://api.us.navixy.com/v2/tracker/get_state?hash=${hash}&tracker_id=${trackerId}`
+        `${API_URL}/tracker/get_state?hash=${hash}&tracker_id=${trackerId}`
       );
       const state = locRes.data.state;
       const { lat, lng } = state.gps.location;
