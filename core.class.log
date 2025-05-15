@@ -1,12 +1,12 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '5217821351491@s.whatsapp.net',
+    remoteJid: '527822090472@s.whatsapp.net',
     fromMe: false,
-    id: '3AE6AB510F8747B324C2',
+    id: '1A9DF37F0E374176605706FA683005FD',
     participant: undefined
   },
-  messageTimestamp: 1747269058,
-  pushName: 'Ezequiel Rdz',
+  messageTimestamp: 1747280479,
+  pushName: 'Juana García',
   broadcast: false,
   message: Message {
     conversation: 'Hola',
@@ -17,11 +17,11 @@
     }
   },
   body: 'Hola',
-  from: '5217821351491'
+  from: '527822090472'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_0c9420f7-a2b8-4a14-aea1-429933ebe0a4',
-  keyword: 'key_c72ecbef-588a-42ab-a77e-a92dda590d71',
+  ref: 'ans_2b37629c-de93-4afd-b8ab-27052074c383',
+  keyword: 'key_ebf3a142-a4cc-4530-ba90-5d7cf7baba45',
   answer: 'Hola, soy tu asistente virtual de *DSISACMA*🤖, ¿en qué puedo ayudarte?😄',
   options: {
     media: null,
@@ -35,11 +35,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '041288d9954ea780bbaf2f1c05492ce6'
+  refSerialize: 'b9bf8f3584a7c7499f5fe14cbcac6462'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_673adedd-76f5-4fdb-b7b3-49e5ca90d4f0',
-  keyword: 'ans_0c9420f7-a2b8-4a14-aea1-429933ebe0a4',
+  ref: 'ans_4cffa861-4cb6-400b-8c21-480e6a899d2d',
+  keyword: 'ans_2b37629c-de93-4afd-b8ab-27052074c383',
   answer: 'Por favor, dime qué necesitas: \n' +
     '*Monitoreo*💻 \n' +
     '*Combustible*⛽ \n' +
@@ -57,11 +57,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'a48f1a48277e206aa1c4ad54eaaf6547'
+  refSerialize: 'add9e14e9166e2d2d9aa34dd7e25ab38'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_40ee955c-2c93-4c14-b41f-253180d301df',
-  keyword: 'ans_673adedd-76f5-4fdb-b7b3-49e5ca90d4f0',
+  ref: 'ans_8ffd21b4-2455-449b-9a09-44e76ddac199',
+  keyword: 'ans_4cffa861-4cb6-400b-8c21-480e6a899d2d',
   answer: 'Escribe lo que necesitas, porfavor.',
   options: {
     media: null,
@@ -75,16 +75,212 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'fa1d59f1d36dcb47b0b6ba6fb21efe49'
+  refSerialize: '2324fbaf3e021f4109484d6a2e5b1a27'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '527822090472@s.whatsapp.net',
+    fromMe: false,
+    id: '8D01620ACA7719F97B6B7038DE712AF1',
+    participant: undefined
+  },
+  messageTimestamp: 1747280481,
+  pushName: 'Juana García',
+  broadcast: false,
+  message: Message {
+    conversation: 'Ubi',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Ubi',
+  from: '527822090472'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_e175972a-8ba9-4687-8396-e616e7b4dd73',
+  keyword: 'key_2b46531a-7173-4129-a80b-1e2822cd3562',
+  answer: '🔍 Por favor, dime el *nombre del tracker* (label) que deseas localizar.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '69dea89de21c51c0929f2a8fac8b2fd1'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '527822090472@s.whatsapp.net',
+    fromMe: false,
+    id: 'CDF25026719A0DBDA31BC64C05A809F7',
+    participant: undefined
+  },
+  messageTimestamp: 1747280512,
+  pushName: 'Juana García',
+  broadcast: false,
+  message: Message {
+    conversation: 'NISSAN XN-1327-B',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'NISSAN XN-1327-B',
+  from: '527822090472'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_78ff77cc-91d7-42ba-9f94-10b1a1415ca1',
+  keyword: 'ans_e175972a-8ba9-4687-8396-e616e7b4dd73',
+  answer: '__call_action__',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '030a435a315fb0f86b73dcb70b9b0b19'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b5cecb50-9e13-4a6f-ada1-60c83cf92659',
+  keyword: 'ans_78ff77cc-91d7-42ba-9f94-10b1a1415ca1',
+  answer: "❓ ¿Quieres revisar otro tracker? (sí / no) o usa *'Reintentar'* para buscar de nuevo.",
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'efaa32c6bcc721e78593676812f4470d'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '527822090472@s.whatsapp.net',
+    fromMe: false,
+    id: '8EB9D4D57F30866029C405CF640393F2',
+    participant: undefined
+  },
+  messageTimestamp: 1747280530,
+  pushName: 'Juana García',
+  broadcast: false,
+  message: Message {
+    conversation: 'No',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'No',
+  from: '527822090472'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5217821351491@s.whatsapp.net',
     fromMe: false,
-    id: '3A0F7BBE37B6BF64F335',
+    id: '3A7AD6E685682C1B10EC',
     participant: undefined
   },
-  messageTimestamp: 1747269061,
+  messageTimestamp: 1747280557,
+  pushName: 'Ezequiel Rdz',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '5217821351491'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2b37629c-de93-4afd-b8ab-27052074c383',
+  keyword: 'key_ebf3a142-a4cc-4530-ba90-5d7cf7baba45',
+  answer: 'Hola, soy tu asistente virtual de *DSISACMA*🤖, ¿en qué puedo ayudarte?😄',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'b9bf8f3584a7c7499f5fe14cbcac6462'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_4cffa861-4cb6-400b-8c21-480e6a899d2d',
+  keyword: 'ans_2b37629c-de93-4afd-b8ab-27052074c383',
+  answer: 'Por favor, dime qué necesitas: \n' +
+    '*Monitoreo*💻 \n' +
+    '*Combustible*⛽ \n' +
+    '*Cotizaciones de servicio de GPS*💼 \n' +
+    '*Ubicación*📍',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'add9e14e9166e2d2d9aa34dd7e25ab38'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8ffd21b4-2455-449b-9a09-44e76ddac199',
+  keyword: 'ans_4cffa861-4cb6-400b-8c21-480e6a899d2d',
+  answer: 'Escribe lo que necesitas, porfavor.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '2324fbaf3e021f4109484d6a2e5b1a27'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5217821351491@s.whatsapp.net',
+    fromMe: false,
+    id: '3A0073402154F945F72C',
+    participant: undefined
+  },
+  messageTimestamp: 1747280561,
   pushName: 'Ezequiel Rdz',
   broadcast: false,
   message: Message {
@@ -99,8 +295,8 @@
   from: '5217821351491'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_6b7f851d-1804-4ad5-ba25-a081069099f8',
-  keyword: 'key_0a0b0ae3-f32e-4a2f-9dfa-30dbea2e12a9',
+  ref: 'ans_e175972a-8ba9-4687-8396-e616e7b4dd73',
+  keyword: 'key_2b46531a-7173-4129-a80b-1e2822cd3562',
   answer: '🔍 Por favor, dime el *nombre del tracker* (label) que deseas localizar.',
   options: {
     media: null,
@@ -114,32 +310,32 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'bdd7ab472262b481332c56eb4974f4d5'
+  refSerialize: '69dea89de21c51c0929f2a8fac8b2fd1'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5217821351491@s.whatsapp.net',
     fromMe: false,
-    id: '3A8A69FD89BFAD6AAEA4',
+    id: '3A1AA1175D7B92AD7216',
     participant: undefined
   },
-  messageTimestamp: 1747269064,
+  messageTimestamp: 1747280564,
   pushName: 'Ezequiel Rdz',
   broadcast: false,
   message: Message {
-    conversation: 'NISSAN XN-1327-B',
+    conversation: 'TRACTO BLANCO 11-AN-1U',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: 'NISSAN XN-1327-B',
+  body: 'TRACTO BLANCO 11-AN-1U',
   from: '5217821351491'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_317bcf19-58a5-4ce4-8f9b-2789d2756064',
-  keyword: 'ans_6b7f851d-1804-4ad5-ba25-a081069099f8',
+  ref: 'ans_78ff77cc-91d7-42ba-9f94-10b1a1415ca1',
+  keyword: 'ans_e175972a-8ba9-4687-8396-e616e7b4dd73',
   answer: '__call_action__',
   options: {
     media: null,
@@ -153,11 +349,11 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'dbe8a0ed5fb05657846420bd00dcac2a'
+  refSerialize: '030a435a315fb0f86b73dcb70b9b0b19'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_c4889ef4-210e-4eda-85fc-a63c86e8be00',
-  keyword: 'ans_317bcf19-58a5-4ce4-8f9b-2789d2756064',
+  ref: 'ans_b5cecb50-9e13-4a6f-ada1-60c83cf92659',
+  keyword: 'ans_78ff77cc-91d7-42ba-9f94-10b1a1415ca1',
   answer: "❓ ¿Quieres revisar otro tracker? (sí / no) o usa *'Reintentar'* para buscar de nuevo.",
   options: {
     media: null,
@@ -171,94 +367,55 @@
     keyword: {},
     callback: true
   },
-  refSerialize: '094633bd34a31f48de661930ab94035e'
+  refSerialize: 'efaa32c6bcc721e78593676812f4470d'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5217821351491@s.whatsapp.net',
     fromMe: false,
-    id: '3A149203A542663713D1',
+    id: '3AF08A80D62501863C38',
     participant: undefined
   },
-  messageTimestamp: 1747269067,
+  messageTimestamp: 1747280595,
   pushName: 'Ezequiel Rdz',
   broadcast: false,
   message: Message {
-    conversation: 'Si',
+    imageMessage: ImageMessage {
+      interactiveAnnotations: [],
+      scanLengths: [Array],
+      url: 'https://mmg.whatsapp.net/o1/v/t62.7118-24/f2/m232/AQOLzl2K8r31PlXtYgCFnnovIm0pmp0PZJQ9WNIWCQ81I1S3o5IWE1-jOqt17N6H429bzzJhPBvzEFSJyrev7YRjqij1wBpETCuUD8wnqA?ccb=9-4&oh=01_Q5Aa1gGXXH4laFDwygxN3-KClSEMikLe3bAC8nlzBwM7keyc7A&oe=684CE7E9&_nc_sid=e6ed6c&mms3=true',
+      mimetype: 'image/jpeg',
+      fileSha256: [Uint8Array],
+      fileLength: [Long],
+      height: 1600,
+      width: 740,
+      mediaKey: [Uint8Array],
+      fileEncSha256: [Uint8Array],
+      directPath: '/o1/v/t62.7118-24/f2/m232/AQOLzl2K8r31PlXtYgCFnnovIm0pmp0PZJQ9WNIWCQ81I1S3o5IWE1-jOqt17N6H429bzzJhPBvzEFSJyrev7YRjqij1wBpETCuUD8wnqA?ccb=9-4&oh=01_Q5Aa1gGXXH4laFDwygxN3-KClSEMikLe3bAC8nlzBwM7keyc7A&oe=684CE7E9&_nc_sid=e6ed6c',
+      mediaKeyTimestamp: [Long],
+      jpegThumbnail: [Uint8Array],
+      firstScanSidecar: [Uint8Array],
+      firstScanLength: 7242,
+      scansSidecar: [Uint8Array],
+      midQualityFileSha256: [Uint8Array]
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: 'Si',
+  body: '_event_media__074549e1-7a50-45c8-ab41-48c2bb65c09e',
   from: '5217821351491'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5217821351491@s.whatsapp.net',
     fromMe: false,
-    id: '3A785385123BD7E13A61',
+    id: '3ABDC2FA471739F6CA29',
     participant: undefined
   },
-  messageTimestamp: 1747269070,
-  pushName: 'Ezequiel Rdz',
-  broadcast: false,
-  message: Message {
-    conversation: 'NISSAN XN-1327-B',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'NISSAN XN-1327-B',
-  from: '5217821351491'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_317bcf19-58a5-4ce4-8f9b-2789d2756064',
-  keyword: 'ans_6b7f851d-1804-4ad5-ba25-a081069099f8',
-  answer: '__call_action__',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'dbe8a0ed5fb05657846420bd00dcac2a'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_c4889ef4-210e-4eda-85fc-a63c86e8be00',
-  keyword: 'ans_317bcf19-58a5-4ce4-8f9b-2789d2756064',
-  answer: "❓ ¿Quieres revisar otro tracker? (sí / no) o usa *'Reintentar'* para buscar de nuevo.",
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '094633bd34a31f48de661930ab94035e'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5217821351491@s.whatsapp.net',
-    fromMe: false,
-    id: '3A7DA5FF27C6585E1E24',
-    participant: undefined
-  },
-  messageTimestamp: 1747269077,
+  messageTimestamp: 1747280603,
   pushName: 'Ezequiel Rdz',
   broadcast: false,
   message: Message {
@@ -271,4 +428,83 @@
   },
   body: 'No',
   from: '5217821351491'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '527822090472@s.whatsapp.net',
+    fromMe: false,
+    id: '20ED47AE541891300C2E10864E81B24A',
+    participant: undefined
+  },
+  messageTimestamp: 1747280623,
+  pushName: 'Juana García',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Hola',
+  from: '527822090472'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2b37629c-de93-4afd-b8ab-27052074c383',
+  keyword: 'key_ebf3a142-a4cc-4530-ba90-5d7cf7baba45',
+  answer: 'Hola, soy tu asistente virtual de *DSISACMA*🤖, ¿en qué puedo ayudarte?😄',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'b9bf8f3584a7c7499f5fe14cbcac6462'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_4cffa861-4cb6-400b-8c21-480e6a899d2d',
+  keyword: 'ans_2b37629c-de93-4afd-b8ab-27052074c383',
+  answer: 'Por favor, dime qué necesitas: \n' +
+    '*Monitoreo*💻 \n' +
+    '*Combustible*⛽ \n' +
+    '*Cotizaciones de servicio de GPS*💼 \n' +
+    '*Ubicación*📍',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'add9e14e9166e2d2d9aa34dd7e25ab38'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8ffd21b4-2455-449b-9a09-44e76ddac199',
+  keyword: 'ans_4cffa861-4cb6-400b-8c21-480e6a899d2d',
+  answer: 'Escribe lo que necesitas, porfavor.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '2324fbaf3e021f4109484d6a2e5b1a27'
 }
